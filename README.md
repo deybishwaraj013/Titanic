@@ -8,7 +8,7 @@ One of the reasons that the shipwreck led to such loss of life was that there we
 <br><br>
 This notebook is an analysis on what sorts of people were likely to survive. In partciular, I build a Machine Learning model to predict which passengers survived the tragedy.
 
-<img src="../images/titanic.png"/>
+<img src="./images/titanic.png"/>
 
 ## Table Of Contents
 ***
@@ -440,7 +440,7 @@ def updateTrainTestData():
 # Data Preprocessing
 ***
 
-<img src="../images/preprocessing.gif"/>
+<img src="./images/preprocessing.gif"/>
 
 <a id = '#missingValues'></a>
 ## Missing Values
@@ -706,7 +706,7 @@ updateTrainTestData()
 # Exploratory Data Analysis
 ***
 
-<img src='../images/explore.gif'>
+<img src='./images/explore.gif'>
 
 
 ```python
@@ -2223,7 +2223,7 @@ plt.ylabel('Algorithm')
 # Voting Classifier
 ***
 
-<img src = '../images/Voting.gif'></img>
+<img src = './images/Voting.gif'></img>
 
 <b><i>The first step in a Voting Classifier is to train several Classifiers independently on the same data. Then aggregate the predictions of each classifier and predict the class that gets the most votes.</i></b>
 <br>
@@ -2268,7 +2268,7 @@ estimators = [
 ***
 Scikit-Learn has a cool library called VotingClassifier that does the tast of training all the classifiers/estimators independently. We then used "cross_validate" to determine the efficiency of the Voting Classifier.
 
-<img src = '../images/Hard_Voting.png'/>
+<img src = './images/Hard_Voting.png'/>
 
 
 ```python
